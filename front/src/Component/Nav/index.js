@@ -33,9 +33,9 @@ const Navbar = () => {
   return (
     <div>
          <nav>
-            <div class="nav-wrapper purple darken-4">
+            <div className="nav-wrapper purple darken-4">
             <Link to='/' className='brand-logo left'>Logo</Link>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <ul id="nav-mobile" className="right hide-on-med-and-down">
              { !data ?  (
             <div><li><Link to='/form'> Sign Up</Link> </li>
             <li><Link to='/login'> Login</Link></li> </div> )
